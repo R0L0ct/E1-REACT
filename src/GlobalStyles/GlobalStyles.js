@@ -7,4 +7,8 @@ export const GlobalStyles = createGlobalStyle`
 	box-sizing: border-box;
 	list-style: none;
 }
-`
+
+body {
+height: 100vh;
+}
+`;

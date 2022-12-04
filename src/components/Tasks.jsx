@@ -21,6 +21,13 @@ const StyledForm = styled.form`
   gap: 20px;
 `;
 
+const TaskContainerStyled = styled.div`
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+`
 
 export const Tasks = () => {
   const [newTask, setNewTask] = useState("");
@@ -36,6 +43,7 @@ export const Tasks = () => {
 
   return (
     <>
+		<TaskContainerStyled>
       <StyledDiv>
         <Text
           bgGradient="linear(to-l, #7928CA, #FF0080)"
@@ -68,6 +76,7 @@ export const Tasks = () => {
         <TableTasks taskItems={taskItems} />
         <DeleteTasks deleteAllTasks={deleteAllTasks} />
       </StyledDiv>
+</TaskContainerStyled>
     </>
   );
 };
