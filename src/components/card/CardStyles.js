@@ -30,6 +30,7 @@ export const CardTextContentContainerStyled = styled.div`
   font-weight: 600;
   letter-spacing: 3px;
 `;
+
 export const CardTypeContainerStyled = styled.div`
   font-size: 25px;
 `;

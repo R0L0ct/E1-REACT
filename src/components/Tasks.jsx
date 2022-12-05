@@ -2,6 +2,7 @@ import { Button, Input, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import styled from "styled-components";
 import { useTask } from "../hooks/useTask";
+import { Reducer } from "./context/ContextReducer";
 import { DeleteTasks } from "./DeleteTasks";
 import { TableTasks } from "./TableTasks";
 
